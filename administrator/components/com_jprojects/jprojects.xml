@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+ <name>Projects</name>
+ <creationDate>12/27/2008</creationDate>
+ <author>Shafiq Issani</author>
+ <copyright>Copyright 2008.  Igenx Solutions</copyright>
+ <authorEmail>shafiqissani@gmail.com</authorEmail>
+ <authorUrl>http://igenxsolutions.com</authorUrl>
+ <version>1.5.0</version>
+  
+<installfile>install.jprojects.php</installfile>
+
+<uninstallfile>uninstall.jprojects.php</uninstallfile>
+
+<install>
+	<sql>
+		<file driver="mysql" charset="utf8">install.mysql.sql</file>
+		<file driver="mysql">install.mysql.sql</file>		
+	</sql>
+</install>
+
+<uninstall>
+	<sql>
+		<file driver="mysql" charset="utf8">uninstall.mysql.sql</file>
+		<file driver="mysql">uninstall.mysql.sql</file>		
+	</sql>
+</uninstall>
+
+<files>
+	<filename>jprojects.php</filename>
+	<filename>jprojects.html.php</filename>
+	<filename>controller.php</filename>
+	<filename>jprojects.class.php</filename>
+	<filename>index.html</filename>
+	
+	<filename>css/style.css</filename>
+	<filename>css/index.html</filename>
+	
+	<filename>js/jprojects.js</filename>
+	<filename>js/index.html</filename>
+		
+	<filename>images/publish_x.png</filename>
+	<filename>images/tick.png</filename>
+	<filename>images/required_field.png</filename>
+	<filename>images/required_field_2.png</filename>
+	<filename>images/j_arrow.png</filename>
+	<filename>images/j_arrow_down.png</filename>
+	<filename>images/index.html</filename>
+</files>
+
+<administration>
+   <menu img="components/com_jprojects/images/jprojects_icon.png">jProjects</menu>
+   <files folder="admin">
+   	  <filename>install.mysql.sql</filename>
+	  <filename>uninstall.mysql.sql</filename>
+	  <filename>admin.jprojects.php</filename>
+      <filename>admin.jprojects.html.php</filename>
+	  <filename>controller.php</filename>
+	  <filename>helper.php</filename>
+	  <filename>jprojects.cpanel.php</filename>
+	  <filename>jprojects.about.php</filename>
+	  <filename>jprojects.config.php</filename>
+	  <filename>toolbar.jprojects.php</filename>
+	  <filename>toolbar.jprojects.html.php</filename>
+	  <filename>index.html</filename>
+	  
+  	  <filename>js/admin.jprojects.js</filename>
+	  <filename>js/index.html</filename>
+	  
+	  <filename>languages/english.php</filename>
+	  <filename>languages/index.html</filename>
+	  
+	  <filename>css/admin_style.css</filename>
+	  <filename>css/index.html</filename>
+	  
+	  <filename>images/about.jpg</filename>
+	  <filename>images/add.png</filename>
+	  <filename>images/back.png</filename>
+	  <filename>images/calendar.png</filename>
+	  <filename>images/calendar_view_day.png</filename>
+	  <filename>images/calendar_view_month.png</filename>
+	  <filename>images/cancel.png</filename>
+	  <filename>images/config.jpg</filename>
+	  <filename>images/database.png</filename>
+	  <filename>images/database_add.png</filename>
+	  <filename>images/date.png</filename>
+	  <filename>images/date_add.png</filename>
+	  <filename>images/edit.png</filename>
+	  <filename>images/folder.png</filename>
+	  <filename>images/folder_add.png</filename>
+	  <filename>images/header_bg.png</filename>	  
+	  <filename>images/home.jpg</filename>
+	  <filename>images/inprogress.png</filename>
+	  <filename>images/invoices.jpg</filename>
+	  <filename>images/invoices_add.jpg</filename>
+	  <filename>images/j_arrow.png</filename>
+	  <filename>images/j_arrow_down.png</filename>
+      <filename>images/jprojects_icon.png</filename>	
+	  <filename>images/jprojects_logo.png</filename>
+	  <filename>images/pendinginput.png</filename>
+	  <filename>images/publish.jpg</filename>
+	  <filename>images/quotes.jpg</filename>
+	  <filename>images/quotes_add.jpg</filename>
+	  <filename>images/required_field.png</filename>
+	  <filename>images/required_field_2.png</filename>	
+	  <filename>images/save.png</filename>	    	  
+	  <filename>images/service_lookup.png</filename>
+	  <filename>images/services.jpg</filename>
+	  <filename>images/services_add.jpg</filename>
+	  <filename>images/time.png</filename>
+	  <filename>images/time_add.png</filename>
+	  <filename>images/time_tracker.png</filename>
+	  <filename>images/trash.png</filename>
+	  <filename>images/urgent.png</filename>
+	  <filename>images/index.html</filename>
+   </files>
+ </administration>
+
+</install>

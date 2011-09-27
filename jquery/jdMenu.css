@@ -1,0 +1,26 @@
+ul.menu, 
+ul.menu_vertical {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+ul.menu li {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* -- Sub-Menus -- */
+ul.menu ul,
+ul.menu_vertical ul {
+	position: absolute;
+	display: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	z-index: 10000;
+}
+ul.menu ul li,
+ul.menu_vertical ul li {
+	float: none;
+}

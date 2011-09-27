@@ -1,0 +1,311 @@
+/** IE bugs: a:link, a:visited, a:hover need to be styled as well; does not display separator... workaround? */
+
+#toolbar-article{
+	clear:both;
+	margin-top: 5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#E9E9E9;
+	width:100%;	
+	display: block;	
+	font-size: 11px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	height:36px;
+}
+
+.backtotop{
+	float:right;
+	border: 1px solid #CCC;	
+	font-weight:normal;
+	font-size: 100%;
+	display: block;
+	padding: 0.4em 0.9em 0.3em 0.5em;
+	line-height:17px;
+}
+
+a.expandedtop{
+	display: block;
+	background-image: url("../images/top.gif");
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding-right: 20px;	
+}
+
+#toolbar-articlebody {
+	clear:both;
+	margin-top: 18px;
+}
+
+.mainlevel-toolbar-article-horizontal img {
+	vertical-align:text-bottom;
+	border-style:none;
+	margin-right:4px;
+}
+
+/** customize colors here */
+a.mainlevel-toolbar-article-horizontal, a.mainlevel_active-toolbar-article-horizontal, a.mainlevel_current-toolbar-article-horizontal,
+a.mainlevel-toolbar-article-horizontal:link{
+
+	border: 1px solid #CCC;
+	margin-left: 4px;	
+	/*margin-bottom: 4px;
+	margin-bottom: 0px !important;	
+	margin-top: 0px;
+	margin-top: -1px !important;*/
+	
+}
+
+a.mainlevel_active-toolbar-article-horizontal:link, a.mainlevel_current-toolbar-article-horizontal:link,
+a.mainlevel-toolbar-article-horizontal:visited, a.mainlevel_active-toolbar-article-horizontal:visited, a.mainlevel_current-toolbar-article-horizontal:visited 
+{ 
+	background: #FFF;
+/*color: #333;*/
+
+}
+
+a.mainlevel-toolbar-article-horizontal:hover, a.mainlevel_active-toolbar-article-horizontal:hover, a.mainlevel_current-toolbar-article-horizontal:hover {
+	/*color:#333333;*/
+	background: #FFF;
+
+}
+
+
+
+a.sublevel-toolbar-article-horizontal:hover, a.sublevel_active-toolbar-article-horizontal:hover, a.sublevel_current-toolbar-article-horizontal:hover {
+	background: #FFF;
+	/*border-top:1px solid #494848;border-bottom:1px solid #151414;
+	border-left:1px solid #151414;border-right:1px solid #151414;
+	border-left:1px solid #151414;border-right:1px solid #151414;*/
+	
+	margin-left: 4px;
+	border: 1px solid #CCC;
+	
+	/*margin-top: -1px;*/
+}
+
+ul.mainlevel-toolbar-article-horizontal ul ul a.sublevel-toolbar-article-horizontal, ul.mainlevel-toolbar-article-horizontal ul ul a.sublevel_active-toolbar-article-horizontal, ul.mainlevel-toolbar-article-horizontal ul ul a.sublevel_current-toolbar-article-horizontal,
+ul.mainlevel-toolbar-article-horizontal ul ul a.sublevel-toolbar-article-horizontal:link, ul.mainlevel-toolbar-article-horizontal ul ul a.sublevel_active-toolbar-article-horizontal:link, ul.mainlevel-toolbar-article-horizontal ul ul a.sublevel_current-toolbar-article-horizontal:link,
+ul.mainlevel-toolbar-article-horizontal ul ul a.sublevel-toolbar-article-horizontal:visited, ul.mainlevel-toolbar-article-horizontal ul ul a.sublevel_active-toolbar-article-horizontal:visited, ul.mainlevel-toolbar-article-horizontal ul ul a.sublevel_current-toolbar-article-horizontal:visited {
+	background: #FFF;
+	/*color: #999;*/
+	/*border-top:1px solid #494848;border-bottom:1px solid #151414;
+	border-left:1px solid #151414;border-right:1px solid #151414;*/
+	border: 1px solid #CCC;
+}
+
+ul.mainlevel-toolbar-article-horizontal ul ul a.sublevel-toolbar-article-horizontal:hover, ul.mainlevel-toolbar-article-horizontal ul ul a.sublevel_active-toolbar-article-horizontal:hover, ul.mainlevel-toolbar-article-horizontal ul ul a.sublevel_current-toolbar-article-horizontal:hover {
+	background: #FFF;
+	/*color:#999;*/
+	
+}
+ul.mainlevel-toolbar-article-horizontal  .expanded {
+	display: block;
+	background-image: url("../images/arrow.gif");
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding-right: 20px;
+}
+
+
+ul.mainlevel-toolbar-article-horizontal ul .expanded {
+	display: block;
+	background-image: url("../images/arrow.gif");
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding-right: 5px;
+}
+
+
+/** customize style / layout here */
+
+a.mainlevel-toolbar-article-horizontal, a.mainlevel_active-toolbar-article-horizontal, a.mainlevel_current-toolbar-article-horizontal, span.mainlevel-toolbar-article-horizontal,
+a.mainlevel-toolbar-article-horizontal:link, a.mainlevel_active-toolbar-article-horizontal:link, a.mainlevel_current-toolbar-article-horizontal:link,
+a.mainlevel-toolbar-article-horizontal:visited, a.mainlevel_active-toolbar-article-horizontal:visited, a.mainlevel_current-toolbar-article-horizontal:visited,
+a.mainlevel-toolbar-article-horizontal:hover, a.mainlevel_active-toolbar-article-horizontal:hover, a.mainlevel_current-toolbar-article-horizontal:hover
+{
+	font-weight:normal;
+	font-size: 100%;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+	padding: 0.4em 0.9em 0.3em 0.5em;
+	line-height:17px;
+	
+
+	/* top, right, bottom, left */
+	
+}
+
+
+
+a.sublevel-toolbar-article-horizontal, a.sublevel_active-toolbar-article-horizontal, a.sublevel_current-toolbar-article-horizontal, span.sublevel-toolbar-article-horizontal,
+a.sublevel-toolbar-article-horizontal:link, a.sublevel_active-toolbar-article-horizontal:link, a.sublevel_current-toolbar-article-horizontal:link,
+a.sublevel-toolbar-article-horizontal:visited, a.sublevel_active-toolbar-article-horizontal:visited, a.sublevel_current-toolbar-article-horizontal:visited
+
+{
+	/*background: #262525;*/
+	background: #FFF;
+	/*border-top:1px solid #494848;border-bottom:1px solid #151414;
+	border-left:1px solid #151414;border-right:1px solid #151414;*/
+
+	/*color:#999;*/
+	font-weight:normal;
+	font-size: 100%;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+	padding: 0.3em 0.5em 0.3em 0.5em;
+	
+	margin-left: 4px;
+	border: 1px solid #CCC;
+	margin-top: -1px;
+		/* top, right, bottom, left */}
+a.sublevel-toolbar-article-horizontal:hover, a.sublevel_active-toolbar-article-horizontal:hover, a.sublevel_current-toolbar-article-horizontal:hover {
+	background: #E9E9E9;	
+	/*color:#666;*/
+	/*font-weight:bold;*/
+	font-size: 100%;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+	padding: 0.3em 0.5em 0.3em 0.5em;	/* top, right, bottom, left */
+	
+	margin-left: 4px;
+	border: 1px solid #CCC;
+	margin-top: -1px;
+}
+
+
+
+a.sublevel-toolbar-article-horizontal, a.sublevel_active-toolbar-article-horizontal, a.sublevel_current-toolbar-article-horizontal, span.sublevel-toolbar-article-horizontal {
+	border-top: none;
+	height: 1%;	/* this is required for the IE to cause the "hasLayout" property and make the whole anchor clickable - "Holly Hack" */
+}
+
+#active_menu-toolbar-article-horizontal,
+a.mainlevel_active-toolbar-article-horizontal, a.mainlevel_current-toolbar-article-horizontal,
+a.mainlevel_active-toolbar-article-horizontal:link, a.mainlevel_current-toolbar-article-horizontal:link,
+a.mainlevel_active-toolbar-article-horizontal:visited, a.mainlevel_current-toolbar-article-horizontal:visited,
+a.mainlevel_active-toolbar-article-horizontal:hover, a.mainlevel_current-toolbar-article-horizontal:hover,
+a.sublevel_active-toolbar-article-horizontal, a.sublevel_current-toolbar-article-horizontal,
+a.sublevel_active-toolbar-article-horizontal:link, a.sublevel_current-toolbar-article-horizontal:link,
+a.sublevel_active-toolbar-article-horizontal:visited, a.sublevel_current-toolbar-article-horizontal:visited,
+a.sublevel_active-toolbar-article-horizontal:hover, a.sublevel_current-toolbar-article-horizontal:hover {
+	/*font-weight: bold;
+	color:#666;*/
+
+	
+	
+}
+
+
+#active_menu-toolbar-article-horizontal,
+li a.mainlevel_active-toolbar-article-horizontal, li a.mainlevel_current-toolbar-article-horizontal,
+li a.mainlevel_active-toolbar-article-horizontal:link, li a.mainlevel_current-toolbar-article-horizontal:link,
+li a.mainlevel_active-toolbar-article-horizontal:visited, li a.mainlevel_current-toolbar-article-horizontal:visited,
+li a.mainlevel_active-toolbar-article-horizontal:hover, li a.mainlevel_current-toolbar-article-horizontal:hover,
+li a.sublevel_active-toolbar-article-horizontal, li a.sublevel_current-toolbar-article-horizontal,
+li a.sublevel_active-toolbar-article-horizontal:link, li a.sublevel_current-toolbar-article-horizontal:link,
+li a.sublevel_active-toolbar-article-horizontal:visited, li a.sublevel_current-toolbar-article-horizontal:visited,
+li a.sublevel_active-toolbar-article-horizontal:hover, li a.sublevel_current-toolbar-article-horizontal:hover {
+	/*font-weight: bold;*/
+	padding-left:5px;
+	/*padding-bottom:6px*/
+		
+}
+
+ul.mainlevel-toolbar-article-horizontal{
+	padding: 5px 0 0 0;
+	margin: 0;
+	list-style: none;
+	line-height: 16px;
+	z-index: 100;
+
+}
+.mainlevel-toolbar-article-horizontal ul {
+	padding: 0 0 0 0;
+	margin: 0;
+	list-style: none;
+	line-height: 16px;
+	z-index: 100;
+}
+.mainlevel-toolbar-article-horizontal ul ul {
+	padding: 0 0 0 0;
+	margin: 0;
+	list-style: none;
+	line-height:16px;
+	z-index: 100;
+}
+
+ul.mainlevel-toolbar-article-horizontal li {
+	padding: 0;
+	margin: 0;
+	background: none;
+	float: left;
+}
+
+ul.mainlevel-toolbar-article-horizontal li li {
+	position: relative;
+	display: block;
+	width: 12em;	
+	padding: 0;
+	margin: 0;
+}
+
+
+ul.mainlevel-toolbar-article-horizontal ul {
+	display: block;
+	position: absolute;
+	left: -999em;
+	margin: -0.1em 0 0 0em;
+	width: auto;
+	height: auto;
+	z-index: 101;
+}
+	
+ul.mainlevel-toolbar-article-horizontal li li ul {
+	margin: -2.5em 0 0 12em;
+	z-index: 102;
+}
+
+ul.mainlevel-toolbar-article-horizontal li:hover ul,
+ul.mainlevel-toolbar-article-horizontal li.hover ul {
+	left: auto;
+}
+
+ul.mainlevel-toolbar-article-horizontal li:hover ul ul,
+ul.mainlevel-toolbar-article-horizontal li.hover ul ul {
+	left: -999em;
+}
+
+ul.mainlevel-toolbar-article-horizontal li:hover ul li:hover ul,
+ul.mainlevel-toolbar-article-horizontal li.hover ul li.hover ul {
+	left: auto;
+}
+
+
+ul.mainlevel-toolbar-article-horizontal, ul.mainlevel-toolbar-article-horizontal li li {
+	clear: left;
+}
+
+/** separator */
+span.mainlevel-toolbar-article-horizontal, span.sublevel-toolbar-article-horizontal {
+	display: block;
+	width: 1em;
+	border-width: 0px;
+	margin-left: 1em;
+	padding: 0;
+	padding-top: 1px;
+}
+
+/** IE5.0/win workaround: the ">" is handled like a "," */
+ul.mainlevel-toolbar-article-horizontal > ul.mainlevel-toolbar-article-horizontal {
+	position: absolute;
+	top: 5em;	/* change the absolute position for IE5.0 here */
+}
+ul.mainlevel-toolbar-article-horizontal > ul.mainlevel-toolbar-article-horizontal li.hover ul {
+	margin: 0.1em 0 0 0em;	/* top, right, bottom, left */
+}
+ul.mainlevel-toolbar-article-horizontal > ul.mainlevel-toolbar-article-horizontal li.hover ul ul {
+	margin: -1.6em 0 0 10em;	/* top, right, bottom, left */
+}

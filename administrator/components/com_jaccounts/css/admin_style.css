@@ -1,0 +1,481 @@
+
+table.moduleTable {
+	border: 1px solid #DDD;
+	border-collapse: collapse;
+}
+th.headerQuotes {
+	background: url(../images/header_bg.png) repeat-x #3b6499;
+	color: #FFFFFF;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+}
+th.headerInvoices {
+	background: url(../images/header_bg.png) repeat-x #3b6499;
+	color: #FFFFFF;
+	padding: 5px;
+	font-size: 11px;
+	text-align: center;
+}
+th.headerServices {
+	background: url(../images/header_bg.png) repeat-x #3b6499;
+	color: #FFFFFF;
+	padding: 5px;
+	font-size: 11px;
+	text-align: center;
+}
+th.headerConfig {
+	background: url(../images/header_bg.png) repeat-x #3b6499;
+	color: #FFFFFF;
+	padding: 5px;
+	font-size: 11px;
+	text-align: center;
+}
+.row1 {
+	background: #f5f4f4;
+}
+.row1 td table td, .row0 td table td {
+	padding-left: 0px;
+}
+.row0:hover, .row1:hover {
+	background: #EAF4FF;
+}
+table.tableList th {
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #DDD;
+	border-collapse: collapse;
+	font-size: 11px;
+}
+table.tableList td {
+	border-left: 1px solid #DDD;
+	border-top: 1px solid #DDD;
+}
+table.tableList {
+	border-right: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	border-collapse: collapse;
+}
+a.button:link, a.button:visited {
+	border: 1px solid #DDD;
+	padding: 5px;
+	background: #3b6499;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+a.button:hover {
+	border: 1px solid #DDD;
+	padding: 5px;
+	background: #6895c9;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #3b6499;
+}
+#copy {
+	width: 100%;
+	text-align: center;
+	font-size: 10px;
+	color: #666666;
+}
+#copy a:link, #copy a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+#copy a:hover {
+	text-decoration: underline;
+}
+table.editView {
+	border-right: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+}
+table.editView td {
+	border-left: 1px solid #DDD;
+	border-top: 1px solid #DDD;		
+}
+td.fieldName {
+	background: #f5f4f4;
+	font-weight: bold;
+	text-align: right;
+}
+td.fieldNameRequired {
+	background: url(../images/required_field.png) no-repeat right #f5f4f4;
+	font-weight: bold;
+	text-align: right;
+}
+td.fieldNameRequiredActive {
+	background: url(../images/required_field_2.png) no-repeat right #f5f4f4;
+	font-weight: bold;
+	text-align: right;
+}
+td.fieldValue {
+	padding: 0px 5px 0px 5px;
+	text-align: left;
+}
+table.serviceList td {
+	border: none;
+	padding: 5px;
+}
+table.serviceList th {
+	background: #f5f4f4;
+	border-bottom: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+	padding: 5px;
+	font-size: 11px;
+}
+input.button {
+	border: 1px solid #DDD;
+	padding: 5px;
+	background: #3b6499;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+input.button:hover {
+	border: 1px solid #DDD;
+	padding: 5px;
+	background: #6895c9;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+input.button2 {
+	border: 1px solid #DDD;
+	padding: 5px;
+	background: #3b6499;
+	color: #FFFFFF;
+	font-weight: bold;
+	width: 15px;
+	text-align:center;
+}
+input.button2:hover {
+	border: 1px solid #DDD;
+	padding: 5px;
+	background: #6895c9;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+input.small, input.small:hover {
+	padding: 2px;
+	cursor: pointer;
+}
+td.productTotal {
+	text-align: right;
+	vertical-align: bottom;
+}
+table.totalTable th, td.headerQuotes, td.headerInvoices{
+	background: url(../images/header_bg.png) repeat-x #3b6499;
+	color: #FFFFFF;
+	padding: 5px;
+	font-weight:bold;
+	font-size: 11px;
+}
+table.totalTable td {
+	font-weight:bold;
+}
+.tableListHeader {
+	background: url(../images/header_bg.png) repeat-x #3b6499;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+}
+table.moduleTable td {
+	border-bottom: 1px solid #DDD;
+}
+.slide_trigger {
+	color: #222;
+	margin: 0;
+	padding: 8px 5px 5px 18px;
+	background: url(../images/config_bullet.png) no-repeat 2px 8px #eee;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+a.alpha:link, a.alpha:visited, a.alpha:hover {
+	font-size: 10px;
+	font-weight: normal;
+}
+.alert {
+	border: 1px solid #FF0000;
+	background: #FFEAEA;
+	font-color: #333;
+	padding: 5px;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	margin: 5px 0px 5px 0px;
+}
+
+/* pane-sliders  */
+.pane-sliders .title {
+	margin: 0;
+	padding: 2px;
+	color: #666;
+	cursor: pointer;
+}
+
+.pane-sliders .panel   { border: 1px solid #ccc; margin-bottom: 3px;}
+
+.pane-sliders .panel h3 { background: #f6f6f6; color: #666}
+
+.pane-sliders .content { }
+
+.pane-sliders .adminlist     { border: 0 none; }
+.pane-sliders .adminlist td  { border: 0 none; }
+
+.jpane-toggler  span     { background: transparent url(../images/j_arrow.png) 5px 50% no-repeat; padding-left: 20px;}
+.jpane-toggler-down span { background: transparent url(../images/j_arrow_down.png) 5px 50% no-repeat; padding-left: 20px;}
+
+.jpane-toggler-down {  border-bottom: 1px solid #ccc; }
+
+/* Calendar: a Javascript class for Mootools that adds accessible and unobtrusive date pickers to your form elements <http://electricprism.com/aeron/calendar> */
+/* Dashboard CSS for Calendar (navigation: 1), Copyright (c) 2007 Aeron Glemann <http://electricprism.com/aeron>, MIT Style License. */
+
+input.dashboard,
+select.dashboard {
+	width: 149px;
+}
+
+button.dashboard {
+	background: url(../images/dashboard-icon.gif);
+	border: 0;
+	cursor: pointer;
+	height: 20px;
+	margin-left: 4px;
+	margin-right: 10px;
+	width: 20px;
+}
+button.dashboard:hover,
+button.dashboard.active {
+	background-position: 0 20px;
+}
+
+div.dashboard {
+	background: url(../images/dashboard.png);
+	height: 175px;
+	padding: 0 12px;
+	text-align: center;
+	width: 147px;
+}	
+	div.dashboard div {
+		background: none !important;
+		cursor: move;
+		height: 165px;
+		overflow: hidden;
+		padding-top: 10px;
+		position: relative;
+		width: 147px;
+	}	
+	
+	div.dashboard caption {
+		color: #CF0;
+		font: normal 12px/17px Arial, Helvetica, sans-serif;
+		padding-top: 4px;
+		text-align: center;
+		width: 100%;
+	}
+	div.dashboard caption a {
+		cursor: pointer;
+		display: block;
+		height: 11px;
+		overflow: hidden;
+		position: absolute;
+		text-indent: -100px;
+		top: 16px;
+		width: 11px;
+	}
+	div.dashboard caption a.prev {
+		background-image: url(../images/dashboard-prev.gif);
+		left: 1px;
+	}
+	div.dashboard caption a.next {
+		background-image: url(../images/dashboard-next.gif);
+		right: 1px;
+	}
+	div.dashboard caption a:hover {
+		background-position: 0 11px;
+	}
+	div.dashboard caption span {
+		height: 25px;
+		position: relative;
+		text-align: center;
+	}
+	div.dashboard caption span.month {
+		padding-right: 8px;
+	}
+	div.dashboard caption span.month:after {
+		content: ',';
+	}
+
+	div.dashboard table {
+		border: 0;
+		border-collapse: collapse;
+		border-spacing: 0;
+		cursor: default;
+		margin: 0 auto;
+		overflow: hidden;
+		width: 147px;
+	}
+	div.dashboard td,
+	div.dashboard th {
+		border: 0;
+		color: #999;
+		font: normal 12px Arial, Helvetica, sans-serif;
+		height: 19px;
+		text-align: center;
+		width: 21px;
+	}
+	div.dashboard td {
+		color: #333;
+		font-size: 11px;
+		padding-right: 5px;
+		text-align: right;
+		width: 16px;
+	}
+	div.dashboard td.invalid {
+		color: #666;
+	}
+	div.dashboard td.valid {
+		color: #FFF;
+		cursor: pointer;
+	}
+	div.dashboard td.active,
+	div.dashboard td.hover {
+		color: #CF0;
+		cursor: pointer;
+	}
+.jaccounts_title {
+	background: url('../images/home.jpg') no-repeat 0px 3px;
+	display: block;
+	width: 130px;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 30px;
+	border-bottom: 1px solid #DDD;	
+}
+.listinvoices {
+	background: url('../images/invoices.jpg') no-repeat 0px 3px;
+	display: block;
+	width: 130px;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 30px;
+	border-bottom: 1px solid #DDD;	
+}
+.listquotes {
+	background: url('../images/quotes.jpg') no-repeat 0px 3px;
+	display: block;
+	width: 130px;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 30px;
+	border-bottom: 1px solid #DDD;	
+}
+.newinvoice {
+	background: url('../images/invoices_add.jpg') no-repeat 0px 3px;
+	display: block;
+	width: 130px;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 30px;
+	border-bottom: 1px solid #DDD;	
+}
+.newquote {
+	background: url('../images/quotes_add.jpg') no-repeat 0px 3px;
+	display: block;
+	width: 130px;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 30px;
+	border-bottom: 1px solid #DDD;	
+}
+.addservice {
+	background: url('../images/services_add.jpg') no-repeat 0px 3px;
+	display: block;
+	width: 130px;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 30px;
+	border-bottom: 1px solid #DDD;	
+}
+.manageservices {
+	background: url('../images/services.jpg') no-repeat 0px 3px;
+	display: block;
+	width: 130px;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 30px;
+	border-bottom: 1px solid #DDD;	
+}
+.about {
+	background: url('../images/about.jpg') no-repeat 0px 3px;
+	display: block;
+	width: 130px;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 30px;
+	border-bottom: 1px solid #DDD;	
+}
+.config {
+	background: url('../images/config.jpg') no-repeat 0px 3px;
+	display: block;
+	width: 130px;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 30px;
+	border-bottom: 1px solid #DDD;	
+}
+
+.menu_title {
+	background: url(../images/header_bg.png) repeat-x #199355;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+	display: block;
+	width: 160px;
+	height: 22px;
+	line-height: 22px;
+	margin-top: 22px;
+}
+.menu_title1 {
+	background: url(../images/header_bg.png) repeat-x #199355;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+	display: block;
+	width: 160px;
+	height: 22px;
+	line-height: 22px;
+	margin: 0px;
+}
+ul.jForceMenu {
+	list-style: none;
+	list-style-image: none;
+	text-indent: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+ul.jForceSubMenu {
+	list-style: none;
+	list-style-image: none;
+	text-indent: 0px;
+	padding: 0px;
+}
+table.moduleTable tfoot tr { text-align: center;  color: #333; }
+table.moduleTable tfoot td,
+table.moduleTable tfoot th { background-color: #f3f3f3; border-top: 1px solid #999; text-align: center; }
+
+table.moduleTable td.order 		{ text-align: center; white-space: nowrap; }
+table.moduleTable td.order span { float: left; display: block; width: 20px; text-align: center; }
+
+table.moduleTable .pagination { display:table; padding:0;  margin:0 auto;	 }

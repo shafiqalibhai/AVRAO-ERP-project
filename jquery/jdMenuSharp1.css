@@ -1,0 +1,56 @@
+ul.menu {
+	margin-left: 20px;
+	height: 21px;
+}
+ul.menu li {
+	margin: 0px;
+	padding: 0px;
+	background-image:url(images/bmid_111.gif);
+	background-repeat:repeat-x;
+}
+
+ul.menu a {
+	display: block;
+	padding: 3px 6px 4px 6px;
+	cursor: pointer;
+
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	white-space: nowrap;
+	color: #FFF;
+	text-decoration: none;
+}
+
+ul.menu a.jd_menu_active_menubar,
+ul.menu a.jd_menu_hover_menubar {
+	padding-left: 5px;
+	border-left: 1px solid #88B5E7;
+	padding-right: 5px;
+	border-right: 1px solid #2F63C4;
+	background: url(../img/site-menu-hover.png) repeat-x;
+	color: #003399;
+	color: #EEEEFF;
+}
+
+ul.menu ul {
+	background: #FFF;
+	border: 1px solid #B4C4FF;
+}
+ul.menu ul li {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	color: #3366CC;
+}
+ul.menu ul li a {
+	display: block;
+	width: 150px;
+	margin: 0px;
+	padding: 5px 10px 5px 4px;
+	color: #3366CC;
+}
+ul.menu ul li a.jd_menu_active,
+ul.menu ul li a.jd_menu_hover {
+	background: url(../img/site-gradient.png) repeat-x;
+	text-decoration: underline;
+}

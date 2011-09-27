@@ -1,0 +1,246 @@
+table.moduleTable {
+	border: 1px solid #DDD;
+	border-collapse: collapse;
+}
+th.headerQuotes {
+	background: url(../images/header_bg.png) repeat-x #199355;
+	color: #FFFFFF;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+}
+th.headerInvoices {
+	background: url(../images/header_bg.png) repeat-x #199355;
+	color: #FFFFFF;
+	padding: 5px;
+	font-size: 11px;
+	text-align: center;
+}
+th.headerServices {
+	background: url(../images/header_bg.png) repeat-x #199355;
+	color: #FFFFFF;
+	padding: 5px;
+	font-size: 11px;
+	text-align: center;
+}
+th.headerConfig {
+	background: url(../images/header_bg.png) repeat-x #199355;
+	color: #FFFFFF;
+	padding: 5px;
+	font-size: 11px;
+	text-align: center;
+}
+.row1 {
+	background: #f5f4f4;
+}
+.row1 td table td, .row0 td table td {
+	padding-left: 0px;
+}
+.row0:hover, .row1:hover {
+	background: #edf7f2;
+}
+table.tableList th {
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #DDD;
+	border-collapse: collapse;
+	font-size: 11px;
+}
+table.tableList td {
+	border-left: 1px solid #DDD;
+	border-top: 1px solid #DDD;
+}
+table.tableList {
+	border-right: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	border-collapse: collapse;
+}
+a.button:link, a.button:visited {
+	border: 1px solid #DDD;
+	padding: 5px;
+	background: #106d3e;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+a.button:hover {
+	border: 1px solid #DDD;
+	padding: 5px;
+	background: #199355;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #199355;
+}
+#copy {
+	width: 100%;
+	text-align: center;
+	font-size: 10px;
+	color: #666666;
+}
+#copy a:link, #copy a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+#copy a:hover {
+	text-decoration: underline;
+}
+table.editView {
+	border-right: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+}
+table.editView td {
+	border-left: 1px solid #DDD;
+	border-top: 1px solid #DDD;		
+}
+td.fieldName {
+	background: #f5f4f4;
+	font-weight: bold;
+	text-align: right;
+}
+td.fieldNameRequired {
+	background: url(../images/required_field.png) no-repeat right #f5f4f4;
+	font-weight: bold;
+	text-align: right;
+}
+td.fieldNameRequiredActive {
+	background: url(../images/required_field_2.png) no-repeat right #f5f4f4;
+	font-weight: bold;
+	text-align: right;
+}
+td.fieldValue {
+	padding: 0px 5px 0px 5px;
+	text-align: left;
+}
+table.serviceList td {
+	border: none;
+	padding: 5px;
+}
+table.serviceList th {
+	background: #f5f4f4;
+	border-bottom: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+	padding: 5px;
+	font-size: 11px;
+}
+input.button {
+	border: 1px solid #DDD;
+	padding: 5px;
+	background: #106d3e;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+input.button:hover {
+	border: 1px solid #DDD;
+	padding: 5px;
+	background: #199355;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+input.button2 {
+	border: 1px solid #DDD;
+	padding: 5px;
+	background: #106d3e;
+	color: #FFFFFF;
+	font-weight: bold;
+	width: 15px;
+	text-align:center;
+}
+input.button2:hover {
+	border: 1px solid #DDD;
+	padding: 5px;
+	background: #199355;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+input.small, input.small:hover {
+	padding: 2px;
+	cursor: pointer;
+}
+td.productTotal {
+	text-align: right;
+	vertical-align: bottom;
+}
+table.totalTable th, td.headerQuotes, td.headerServices{
+	background: url(../images/header_bg.png) repeat-x #199355;
+	color: #FFFFFF;
+	padding: 5px;
+	font-weight:bold;
+	font-size: 11px;
+}
+table.totalTable td {
+	font-weight:bold;
+}
+.tableListHeader {
+	background: url(../images/header_bg.png) repeat-x #199355;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 11px;
+}
+table.moduleTable td {
+	border-bottom: 1px solid #DDD;
+}
+.slide_trigger {
+	color: #222;
+	margin: 0;
+	padding: 8px 5px 5px 18px;
+	background: url(../images/j_arrow.png) no-repeat 2px 8px #eee;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+a.alpha:link, a.alpha:visited, a.alpha:hover {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+/* pane-sliders  */
+.pane-sliders .title {
+	margin: 0;
+	padding: 2px;
+	color: #666;
+	cursor: pointer;
+}
+
+.pane-sliders .panel   { border: 1px solid #ccc; margin-bottom: 3px;}
+
+.pane-sliders .panel h3 { background: #f6f6f6; color: #666;}
+
+.pane-sliders .content { display: hidden;}
+
+.pane-sliders .adminlist     { border: 0 none; }
+.pane-sliders .adminlist td  { border: 0 none; }
+
+.jpane-toggler  span     { background: transparent url(../images/j_arrow.png) 5px 50% no-repeat; padding-left: 20px;}
+.jpane-toggler-down span { background: transparent url(../images/j_arrow_down.png) 5px 50% no-repeat; padding-left: 20px;}
+
+.jpane-toggler-down {  border-bottom: 1px solid #ccc; }
+
+th.table-sortable {
+	cursor:pointer;
+	padding-left: 10px;
+}
+th.table-sorted-asc {
+	background:url(../images/ascending.gif) no-repeat left center;
+
+}
+th.table-sorted-desc {
+	background:url(../images/descending.gif) no-repeat left center;
+
+}
+table.moduleTable tfoot tr { text-align: center;  color: #333; }
+table.moduleTable tfoot td,
+table.moduleTable tfoot th { background-color: #f3f3f3; border-top: 1px solid #999; text-align: center; }
+
+table.moduleTable td.order 		{ text-align: center; white-space: nowrap; }
+table.moduleTable td.order span { float: left; display: block; width: 20px; text-align: center; }
+
+table.moduleTable .pagination { display:table; padding:0;  margin:0 auto;	 }

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>AVRAO Template</name>
+	<creationDate>12 December 2008</creationDate>
+	<author>Shafiq Issani</author>
+	<authorEmail>shafiqissani@gmail.com</authorEmail>
+	<authorUrl>http://igenxsolutions.com</authorUrl>
+	<copyright></copyright>
+	<license>Commercial</license>
+	<version>0.0.1</version>
+	<description>TPL_AVRAO</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>params.ini</filename>
+		<filename>images/arrow.png</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>
+		<filename>images/index.html</filename>
+		<filename>images/mw_box_blue_bl.png</filename>
+		<filename>images/mw_box_blue_br.png</filename>
+		<filename>images/mw_box_blue_tl.png</filename>
+		<filename>images/mw_box_blue_tr.png</filename>
+		<filename>images/mw_content_b_l.png</filename>
+		<filename>images/mw_content_b_r.png</filename>
+		<filename>images/mw_content_b.png</filename>
+		<filename>images/mw_content_t_l.png</filename>
+		<filename>images/mw_content_t_r.png</filename>
+		<filename>images/mw_content_t.png</filename>
+		<filename>images/mw_footer_blue_b_l.png</filename>
+		<filename>images/mw_footer_blue_b_r.png</filename>
+		<filename>images/mw_footer_blue_b.png</filename>
+		<filename>images/mw_footer_separator.png</filename>
+		<filename>images/mw_header_b.png</filename>
+		<filename>images/mw_header_blue_t_l.png</filename>
+		<filename>images/mw_header_blue_t_r.png</filename>
+		<filename>images/mw_header_blue_t.png</filename>
+		<filename>images/mw_header_l_b.png</filename>
+		<filename>images/mw_header_r_b.png</filename>
+		<filename>images/mw_header.jpg</filename>
+		<filename>images/mw_joomla_logo.png</filename>
+		<filename>images/mw_line_grey.png</filename>
+		<filename>images/mw_menu_active_bg.png</filename>
+		<filename>images/mw_menu_cap_l.png</filename>
+		<filename>images/mw_menu_cap_r.png</filename>
+		<filename>images/mw_menu_normal_bg.png</filename>
+		<filename>images/mw_menu_separator.png</filename>
+		<filename>images/mw_readon.png</filename>
+		<filename>images/mw_shadow_blue_l.png</filename>
+		<filename>images/mw_shadow_blue_r.png</filename>
+		<filename>images/spacer.png</filename>
+		<filename>css/index.html</filename>
+		<filename>css/template.css</filename>
+		<filename>css/template_rtl.css</filename>
+		<filename>css/editor.css</filename>
+		<filename>css/ieonly.css</filename>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+		<position>debug</position>
+		<position>syndicate</position>
+	</positions>
+</install>

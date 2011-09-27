@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>Content - Shafiq Issani's Toolbar</name>
+	<author>Shafiq Issani</author>
+	<creationDate>2008 December 27</creationDate>
+	<copyright>(C) 2008. All rights reserved.</copyright>
+	<license>Commercial</license>
+	<authorEmail>shafiqissani@gmail.com</authorEmail>
+	<authorUrl>www.igenxsolutions.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Provide a toolbar for your content articles. You must move this plugin in last position!</description>
+	<files>
+		<filename plugin="alphatoolbar">alphatoolbar.php</filename>
+		<filename>alphatoolbar/index.html</filename>
+		<filename>alphatoolbar/js/index.html</filename>
+		<filename>alphatoolbar/js/menu.js</filename>
+		<filename>alphatoolbar/js/switcher.js</filename>
+		<filename>alphatoolbar/images/index.html</filename>
+		<filename>alphatoolbar/images/ap.gif</filename>		
+		<filename>alphatoolbar/images/arrow.gif</filename>
+		<filename>alphatoolbar/images/top.gif</filename>
+		<filename>alphatoolbar/images/icon-email.gif</filename>
+		<filename>alphatoolbar/images/icon-large.gif</filename>
+		<filename>alphatoolbar/images/icon-medium.gif</filename>
+		<filename>alphatoolbar/images/icon-pdf.gif</filename>
+		<filename>alphatoolbar/images/icon-print.gif</filename>
+		<filename>alphatoolbar/images/icon-sharethis.gif</filename>
+		<filename>alphatoolbar/images/icon-small.gif</filename>
+		<filename>alphatoolbar/images/icon-indexpage.gif</filename>
+		<filename>alphatoolbar/images/icon-tags.gif</filename>		
+		<filename>alphatoolbar/images/icon-chart.gif</filename>		
+		<filename>alphatoolbar/images/social/index.html</filename>
+    <filename>alphatoolbar/images/social/yigg_trans.gif</filename>
+    <filename>alphatoolbar/images/social/blinkbits_trans.gif</filename>
+    <filename>alphatoolbar/images/social/blinklist_trans.gif</filename>
+    <filename>alphatoolbar/images/social/blogmarks_trans.gif</filename>
+    <filename>alphatoolbar/images/social/boni_trans.gif</filename>
+    <filename>alphatoolbar/images/social/bookmarkscc_trans.gif</filename>
+    <filename>alphatoolbar/images/social/del_trans.gif</filename>
+    <filename>alphatoolbar/images/social/digg_trans.gif</filename>
+    <filename>alphatoolbar/images/social/diigo_trans.gif</filename>
+    <filename>alphatoolbar/images/social/favit_trans.gif</filename>
+    <filename>alphatoolbar/images/social/favoriten_trans.gif</filename>
+    <filename>alphatoolbar/images/social/folkd_trans.gif</filename>
+    <filename>alphatoolbar/images/social/furl_trans.gif</filename>
+    <filename>alphatoolbar/images/social/google_trans.gif</filename>
+    <filename>alphatoolbar/images/social/icio_trans.gif</filename>
+    <filename>alphatoolbar/images/social/jumptags_trans.gif</filename>
+    <filename>alphatoolbar/images/social/kledy_trans.gif</filename>
+    <filename>alphatoolbar/images/social/linkarena_trans.gif</filename>
+    <filename>alphatoolbar/images/social/linksilo_trans.gif</filename>
+    <filename>alphatoolbar/images/social/ma.gnolia_trans.gif</filename>
+    <filename>alphatoolbar/images/social/netscape_trans.gif</filename>
+    <filename>alphatoolbar/images/social/netvouz_trans.gif</filename>
+    <filename>alphatoolbar/images/social/newsider_trans.gif</filename>
+    <filename>alphatoolbar/images/social/newskick_trans.gif</filename>
+    <filename>alphatoolbar/images/social/newsvine_trans.gif</filename>
+    <filename>alphatoolbar/images/social/oneview_trans.gif</filename>
+    <filename>alphatoolbar/images/social/power_trans.gif</filename>
+    <filename>alphatoolbar/images/social/readster_trans.gif</filename>
+    <filename>alphatoolbar/images/social/reddit_trans.gif</filename>
+    <filename>alphatoolbar/images/social/sbdk_trans.gif</filename>
+    <filename>alphatoolbar/images/social/seekxl_trans.gif</filename>
+    <filename>alphatoolbar/images/social/simpy_trans.gif</filename>
+    <filename>alphatoolbar/images/social/slashdot_trans.gif</filename>
+    <filename>alphatoolbar/images/social/smarking_trans.gif</filename>
+    <filename>alphatoolbar/images/social/spurl_trans.gif</filename>
+    <filename>alphatoolbar/images/social/stumbleupon_trans.gif</filename>
+    <filename>alphatoolbar/images/social/technorati_trans.gif</filename>
+    <filename>alphatoolbar/images/social/upchuckr_trans.gif</filename>
+    <filename>alphatoolbar/images/social/webnews_trans.gif</filename>
+    <filename>alphatoolbar/images/social/what_trans.gif</filename>
+    <filename>alphatoolbar/images/social/wong_trans.gif</filename>
+    <filename>alphatoolbar/images/social/yahoo_trans.gif</filename>
+    <filename>alphatoolbar/images/social/facebook_trans.gif</filename>
+    <filename>alphatoolbar/images/social/wikio_trans.gif</filename>
+    <filename>alphatoolbar/images/social/meneame_trans.gif</filename>
+    <filename>alphatoolbar/images/social/diggita.png</filename>    	
+    <filename>alphatoolbar/images/social/kipapa.jpg</filename>    	
+    <filename>alphatoolbar/images/social/notizieflash.png</filename>    	
+    <filename>alphatoolbar/images/social/oknotizie.gif</filename>    	
+    <filename>alphatoolbar/images/social/segnalo.png</filename>    	
+    <filename>alphatoolbar/images/social/ziczac.gif</filename>    	
+		<filename>alphatoolbar/css/index.html</filename>
+		<filename>alphatoolbar/css/large.css</filename>
+		<filename>alphatoolbar/css/medium.css</filename>
+		<filename>alphatoolbar/css/small.css</filename>
+		<filename>alphatoolbar/css/toolbararticlemenu.css</filename>
+	</files>	
+  <params>    
+    <param name="excludeSectionID" type="text" default="" label="Exclude Section ID" description="Exclude specific section ID : not display the link -Quote This Article- (to specify more than one section, seperate with a comma , ). Use 0 for uncategorized." /> 
+    <param name="excludeCategoryID" type="text" default="" label="Exclude category ID" description="Exclude specific category ID : not display the link -Quote This Article- (to specify more than one category, seperate with a comma , ). Use 0 for uncategorized." /> 
+    <param name="excludeID" type="text" default="" label="Exclude content ID" description="Exclude specific content items : not display the link -Quote This Article- (to specify more than one article, seperate with a comma , )." />
+    <param name="@spacer" type="spacer" default="" label="" description="" />
+    <param name="atb_show_icons_resize_text" type="radio" default="1" label="Icons resize text" description="Display icons for resize text." >
+      <option value="1">Show</option>
+      <option value="0">Hide</option>
+    </param>
+    <param name="atb_show_icon_hits" type="radio" default="1" label="Icon hits" description="Display icon for showing number hits." >
+      <option value="1">Show</option>
+      <option value="0">Hide</option>
+    </param>      
+    <param name="atb_show_go_top_link" type="radio" default="1" label="Link Back to Top" description="Display a link Back to top under article." >
+      <option value="1">Show</option>
+      <option value="0">Hide</option>
+    </param>
+    <param name="atb_include_pdf" type="radio" default="1" label="Include button PDF" description="Include button PDF in toolbar (disabled Joomla button/image)." >
+      <option value="1">Show</option>
+      <option value="0">Hide</option>
+    </param>
+     <param name="atb_include_print" type="radio" default="1" label="Include button Print" description="Include button Print in toolbar (disabled Joomla button/image)." >
+      <option value="1">Show</option>
+      <option value="0">Hide</option>
+    </param>
+     <param name="atb_include_mail" type="radio" default="1" label="Include button E-mail" description="Include button E-mail in toolbar (disabled Joomla button/image)." >
+      <option value="1">Show</option>
+      <option value="0">Hide</option>
+    </param>   
+    <param name="atb_include_tags" type="radio" default="1" label="Include button Tags" description="Include button Tags in toolbar (Keywords article)." >
+      <option value="1">Show</option>
+      <option value="0">Hide</option>
+    </param>  
+    <param name="@spacer" type="spacer" default="" label="" description="" />
+    <param name="atb_position" type="radio" default="1" label="Position toolbar" description="Position toolbar (Above article or below article)." >
+      <option value="1">Above</option>
+      <option value="0">Below</option>
+    </param>
+    <param name="atb_show_on_printpage" type="radio" default="0" label="Show on print page" description="Show on print page." >
+      <option value="1">Show</option>
+      <option value="0">Hide</option>
+    </param> 
+  </params>
+</install>

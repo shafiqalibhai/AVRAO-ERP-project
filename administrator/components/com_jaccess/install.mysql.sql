@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS `#__jaccessgroups` (
+`id` int(25) NOT NULL auto_increment,
+`groupname` varchar(255) default 'NULL',
+`groupowner` int(19) default '0',
+`groupmembers` text,
+`jaccounts_quotes` int(19) default '0',
+`jaccounts_invoices` int(19) default '0',
+`jaccounts_services` int(19) default '0',
+`jcontacts_leads` int(19) default '0',
+`jcontacts_contacts` int(19) default '0',
+`jcontacts_accounts` int(19) default '0',
+`jprojects_tasks` int(19) default '0',
+`jprojects_projects` int(19) default '0',
+`jprojects_timer` int(19) default '0',
+`jsupport_tickets` int(19) default '0',
+`jsupport_faqs` int(19) default '0',
+`jsupport_categories` int(19) default '0',
+`published` tinyint(2) NOT NULL default '0',		
+ PRIMARY KEY  (`id`)
+);

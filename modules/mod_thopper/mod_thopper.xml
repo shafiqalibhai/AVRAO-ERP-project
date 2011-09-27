@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<mosinstall type="module" version="4.5.x">
+
+ 	<name>TH Tasks</name>
+  	<creationDate>09/11/2006</creationDate>
+  	<author>Csenteri Zoltan</author>
+  	<copyright>Released under IBCNet License</copyright>
+  	<authorEmail>office@ibcnet.biz</authorEmail>
+  	<authorUrl>www.ibcnet.biz</authorUrl>
+  	<version>1.1</version>
+	<description>Task Items and Options</description>
+	<files>
+		<filename module="mod_thopper">mod_thopper.php</filename>
+	</files>
+	<params>
+	</params>
+</mosinstall>

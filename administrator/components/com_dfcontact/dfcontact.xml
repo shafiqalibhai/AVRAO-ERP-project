@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="component">
+  <name>DFContact</name>
+  <creationDate>2007-02-15</creationDate>
+  <author>Daniel Filzhut</author>
+  <copyright>Copyright 2005 by Daniel Filzhut</copyright>
+  <authorEmail>joomla@filzhut.de</authorEmail>
+  <authorUrl>software.filzhut.de</authorUrl>
+  <version>1.0.3</version>
+  <description>DFContact is a Joomla! contact form component which is extremly easy to configure and has captcha support using com_securityimages. It displays contact data and a contact form on the same page. The fields in the form can be choosen and set as optional or duty fields. Availible fields: Textarea, checkbox, company, title, name, position, street, postbox, zip, city, state, country, phone, mobile, fax, email, aim, icq, yahoo, msn. Addresses can be displayed in american, british, french or german format. Includes english, german, french, spanish, portuguese, dutch, italian, swedish and turkish language support, easy integration of other languages due to the use of language constant files. It easily integrates with com_securityimages to display a captcha as spam-prevention. Released under GNU General Public License (GPL).</description>
+  <files>
+    <filename>dfcontact.php</filename>
+  </files>
+  <images />
+  <install />
+  <uninstall />
+  <installfile>install.dfcontact.php</installfile>
+  <uninstallfile>uninstall.dfcontact.php</uninstallfile>
+  <administration>
+    <menu>DFContact</menu>
+    <files>
+      <filename>admin.dfcontact.html.php</filename>
+      <filename>admin.dfcontact.php</filename>
+      <filename>config.dfcontact.php</filename>
+      <filename>install.dfcontact.php</filename>
+      <filename>toolbar.dfcontact.html.php</filename>
+      <filename>toolbar.dfcontact.php</filename>
+      <filename>uninstall.dfcontact.php</filename>
+      <filename>languages/english.php</filename>
+      <filename>languages/deutsch.php</filename>
+      <filename>languages/francais.php</filename>
+      <filename>languages/dutch1.php</filename>
+      <filename>languages/dutch2.php</filename>
+      <filename>languages/dutch3.php</filename>
+      <filename>languages/nederlands.php</filename>
+      <filename>languages/italian.php</filename>
+      <filename>languages/portuguese1.php</filename>
+      <filename>languages/portuguese2.php</filename>
+      <filename>languages/spanish.php</filename>
+      <filename>languages/svenska.php</filename>
+      <filename>languages/turkish1.php</filename>
+      <filename>languages/turkish2.php</filename>
+    </files>
+</administration>
+</mosinstall>

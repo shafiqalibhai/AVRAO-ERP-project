@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+  <name>Routine Letter Generator</name>
+  <author>Shafiq Issani</author>
+  <creationDate>24 December 2008</creationDate>
+  <copyright>(C) 2008 Igenx Solutions</copyright>
+  <authorEmail>shafiqissani@gmail.com</authorEmail>
+  <authorUrl>http://shafiqissani.co.cc</authorUrl>
+  <version>0.0.1</version>
+  <description>Routine Letter Generator.</description>
+  <files>
+    <filename module="mod_1">mod_1.php</filename>
+    <filename>index.html</filename>
+  </files>
+  <params>
+  	<param name="content1" type="textarea" default="letter content comes here" label="Letter1:" description="Enter letter body content please." cols="40" rows="5" />
+  <param name="content2" type="textarea" default="letter content comes here" label="Letter2:" description="Enter letter body content please." cols="40" rows="5" />
+  <param name="content3" type="textarea" default="letter content comes here" label="Letter3:" description="Enter letter body content please." cols="40" rows="5" />
+  <param name="content4" type="textarea" default="letter content comes here" label="Letter4:" description="Enter letter body content please." cols="40" rows="5" />
+  <param name="content5" type="textarea" default="letter content comes here" label="Letter5:" description="Enter letter body content please." cols="40" rows="5" />
+  <param name="content6" type="textarea" default="letter content comes here" label="Letter6:" description="Enter letter body content please." cols="40" rows="5" />
+  <param name="content7" type="textarea" default="letter content comes here" label="Letter7:" description="Enter letter body content please." cols="40" rows="5" />
+  </params>
+ <!-- <params group="advanced">
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>-->
+  </install>

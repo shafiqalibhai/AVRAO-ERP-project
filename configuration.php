@@ -1,0 +1,54 @@
+<?php
+class JConfig {
+	var $offline = '0';
+	var $editor = 'tinymce';
+	var $list_limit = '100';
+	var $helpurl = '';
+	var $debug = '0';
+	var $debug_lang = '0';
+	var $sef = '0';
+	var $sef_rewrite = '0';
+	var $sef_suffix = '0';
+	var $feed_limit = '100';
+	var $secret = 'qIpnJiJurBpGnyek';
+	var $gzip = '1';
+	var $error_reporting = '0';
+	var $xmlrpc_server = '0';
+	var $log_path = 'C:\\apache2triad\\htdocs\\avrao_j\\logs';
+	var $tmp_path = 'C:\\apache2triad\\htdocs\\avrao_j\\tmp';
+	var $live_site = '';
+	var $offset = '5.5';
+	var $caching = '0';
+	var $cachetime = '15';
+	var $cache_handler = 'file';
+	var $memcache_settings = array();
+	var $ftp_enable = '0';
+	var $ftp_host = '127.0.0.1';
+	var $ftp_port = '21';
+	var $ftp_user = '';
+	var $ftp_pass = '';
+	var $ftp_root = '';
+	var $dbtype = 'mysql';
+	var $host = 'localhost';
+	var $user = 'root';
+	var $db = 'avrao_j';
+	var $dbprefix = 'avrao_';
+	var $mailer = 'mail';
+	var $mailfrom = 'shafiqissani@gmail.com';
+	var $fromname = 'AVRAO Solutions';
+	var $sendmail = '/usr/sbin/sendmail';
+	var $smtpauth = '0';
+	var $smtpuser = '';
+	var $smtppass = '';
+	var $smtphost = 'localhost';
+	var $MetaAuthor = '1';
+	var $MetaTitle = '1';
+	var $lifetime = '5555';
+	var $session_handler = 'database';
+	var $password = '';
+	var $sitename = 'AVRAO Consultancies';
+	var $MetaDesc = 'AVRAO Consultancies';
+	var $MetaKeys = 'AVRAO Consultancies';
+	var $offline_message = 'This site is down for maintenance. Please check back again soon.';
+}
+?>

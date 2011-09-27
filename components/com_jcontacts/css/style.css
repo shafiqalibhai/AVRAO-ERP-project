@@ -1,0 +1,421 @@
+table.moduleTable {
+
+
+	border: 1px solid #DDD;
+
+
+	border-collapse: collapse;
+
+
+}
+
+
+.row1 {
+
+
+	background: #f2f1f1;
+
+
+}
+
+
+.row1 td table td, .row0 td table td {
+
+
+	padding-left: 0px;
+
+
+}
+
+
+.row0:hover, .row1:hover {
+
+
+	background: #e6e5e5;
+
+
+}
+
+
+table.tableList th {
+
+
+	border-bottom: 1px solid #333;
+
+
+	border-left: 1px solid #DDD;
+
+
+	border-collapse: collapse;
+
+
+}
+.gray th{
+	background: #f5f4f4;
+	border-top: 1px solid #DDDDDD;
+}
+
+table.tableList td {
+
+
+	border-left: 1px solid #DDD;
+
+
+	border-top: 1px solid #DDD;
+
+
+}
+
+
+table.tableList {
+
+
+	border-right: 1px solid #DDD;
+
+
+	border-bottom: 1px solid #DDD;
+
+
+	border-collapse: collapse;
+
+
+}
+
+
+#copy {
+
+
+	width: 100%;
+
+
+	text-align: center;
+
+
+	font-size: 10px;
+
+
+	color: #666666;
+
+
+}
+
+
+#copy a:link, #copy a:visited {
+
+
+	color: #333333;
+
+
+	text-decoration: none;
+
+
+}
+
+
+#copy a:hover {
+
+
+	text-decoration: underline;
+
+
+}
+
+
+table.editView {
+
+
+	border-right: 1px solid #DDD;
+
+
+	border-bottom: 1px solid #DDD;
+
+
+}
+
+
+table.editView td {
+
+
+	border-left: 1px solid #DDD;
+
+
+	border-top: 1px solid #DDD;		
+
+
+}
+
+
+td.fieldName {
+
+
+	background: #f5f4f4;
+
+
+	font-weight: bold;
+
+
+	text-align: right;
+
+
+}
+
+
+td.fieldValue {
+
+
+	padding: 0px 5px 0px 5px;
+
+
+}
+
+
+.tableListHeader {
+
+
+	background: url(../images/header_bg.jpg) repeat-x #ed7b00;
+
+
+	color: #FFFFFF;
+
+
+	font-weight: bold;
+
+
+}
+
+
+table.moduleTable td {
+
+
+	border-bottom: 1px solid #DDD;
+
+
+}
+
+
+.slide_trigger, .slide_trigger_first {
+
+
+	color: #222;
+
+
+	margin: 0;
+
+
+	padding: 8px 5px 5px 18px;
+
+
+	background: url(../images/config_bullet.png) no-repeat 2px 8px #eee;
+
+
+	border-bottom: 1px solid #ddd;
+
+
+	border-right: 1px solid #ddd;
+
+
+	border-top: 1px solid #ddd;
+
+
+	border-left: 1px solid #ddd;
+
+
+	font-size: 11px;
+
+
+	font-weight: bold;
+
+
+	text-transform: uppercase;
+
+
+	cursor: pointer;
+
+
+}
+
+
+.transferAddress {
+
+
+	border-left: 1px solid #CCC;
+
+
+	background: #F5f4f4;
+
+
+	font-weight:bold;
+
+
+}
+
+
+/* pane-sliders  */
+
+
+#content-pane {
+
+
+
+
+
+}
+
+
+.pane-sliders .title {
+
+
+	margin: 0;
+
+
+	padding: 2px;
+
+
+	color: #666;
+
+
+	cursor: pointer;
+
+
+}
+
+
+
+
+
+.pane-sliders .panel   { border: 1px solid #ccc; margin-bottom: 3px;}
+
+
+
+
+
+.pane-sliders .panel h3 { background: #f6f6f6; color: #666; padding:5px;}
+
+
+
+
+
+.pane-sliders .content { }
+
+
+
+
+
+.pane-sliders .adminlist     { border: 0 none; }
+
+
+.pane-sliders .adminlist td  { border: 0 none; }
+
+
+
+
+
+.jpane-toggler  span     { background: transparent url(../images/j_arrow.png) 5px 50% no-repeat; padding-left: 20px;}
+
+
+.jpane-toggler-down span { background: transparent url(../images/j_arrow_down.png) 5px 50% no-repeat; padding-left: 20px;}
+
+
+
+
+
+.jpane-toggler-down {  border-bottom: 1px solid #ccc; }
+
+
+
+
+
+#lbxOv{
+
+
+  background-color: #4D4D4D;
+
+
+}
+
+
+
+
+
+#lbxBox{
+
+
+  font-size:12px;
+
+
+  top:100px;
+
+
+  width:720px;
+
+
+  margin:0 auto;
+
+
+  padding:10px 0;
+
+
+}
+
+
+
+
+
+#lbxBoxIn{
+
+
+	text-align:center;
+
+
+  background-color:white;
+
+
+}
+
+
+
+
+
+#gmap{
+
+
+  width:700px;
+
+
+  margin:0 auto;
+
+
+  height:500px;
+
+
+  border:1px solid #333;
+
+
+}
+
+
+.moduleTable .sectiontableentry0 td, .moduleTable .sectiontableentry1 td, table.editView td {
+
+
+	padding:5px;
+
+
+}
+
+
+.pageNav td {
+
+
+	text-align:center;
+
+
+}
+
+
+.backButton td {
+
+
+	text-align: right;
+
+
+}
